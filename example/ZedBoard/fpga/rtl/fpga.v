@@ -78,7 +78,7 @@ wire clk_mmcm_out;
 wire clk_int;
 wire rst_int;   
 
-wire mmcm_rst = ~reset_n;
+wire mmcm_rst = reset_n;
 wire mmcm_locked;
 wire mmcm_clkfb;
 
